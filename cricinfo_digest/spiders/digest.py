@@ -13,10 +13,9 @@ class digest(scrapy.Spider):
 
     def parse(self, response):
         items=CricinfoDigestItem()
-        l=[]
-        l1=[]
-        items['link_name']=response.xpath("//*[contains(@class,'featured-link')]/a/text()").extract()
-        items['link']=response.xpath("//*[contains(@class,'featured-link')]/a/@href").extract()
+
+        items['link_name']=response.xpath("//li/p/*[contains(@class,'result-text')]/text()").extract()
+        items['link']=response.xpath("//li/p/*[contains(@class,'result-text')]/@href").extract()
 
 
 

@@ -14,14 +14,7 @@ BOT_NAME = 'cricinfo_digest'
 SPIDER_MODULES = ['cricinfo_digest.spiders']
 NEWSPIDER_MODULE = 'cricinfo_digest.spiders'
 
-ITEM_PIPELINES = {
-    'cricinfo_digest.pipelines.MongoPipeline'
-}
 
-MONGODB_SERVER = "localhost"
-MONGODB_PORT = 27017
-MONGODB_DB = "scrapy_items"
-MONGODB_COLLECTION = "scrapy_items"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'cricinfo_digest (+http://www.yourdomain.com)'
