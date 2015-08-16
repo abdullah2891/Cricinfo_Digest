@@ -23,8 +23,8 @@ try:
 
     r=praw.Reddit("user_agent=digest")
 
-    #r.login('cricinfo_bot','toolong')
-    r.login('lt_snuffles','2891tanveer')
+   
+    r.login('[reducted]','[reducted]')
     r.submit('cricket',"Cricinfo today",s)
 except ValueError:
     print "error"
