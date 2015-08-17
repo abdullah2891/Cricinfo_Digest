@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43ec9782-8bcb-4663-9a0b-2f7a570b9413" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cricinfo_digest/pipelines.py" afterPath="$PROJECT_DIR$/cricinfo_digest/pipelines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cricinfo_digest.iws" />
@@ -396,7 +395,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439793646165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working on better scrapping technique">
+      <created>1439798379115</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1439798379115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -443,7 +448,8 @@
     <MESSAGE value="Reading scorecard" />
     <MESSAGE value="Reading scorecard successfully" />
     <MESSAGE value="Included reddit api to the pipeline &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Included reddit api to the pipeline &#10;" />
+    <MESSAGE value="working on better scrapping technique" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on better scrapping technique" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
