@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43ec9782-8bcb-4663-9a0b-2f7a570b9413" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cricinfo_digest/pipelines.py" afterPath="$PROJECT_DIR$/cricinfo_digest/pipelines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cricinfo_digest.iws" />
@@ -72,6 +71,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="abdullah2891 &lt;abdullah2891@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -414,7 +418,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439824027472</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Series information and  setup a server">
+      <created>1439824196101</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1439824196101</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -463,7 +473,8 @@
     <MESSAGE value="Included reddit api to the pipeline &#10;" />
     <MESSAGE value="working on better scrapping technique" />
     <MESSAGE value="Scrapping improved and pipeline worked" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scrapping improved and pipeline worked" />
+    <MESSAGE value="Add Series information and  setup a server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Series information and  setup a server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
