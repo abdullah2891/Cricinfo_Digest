@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43ec9782-8bcb-4663-9a0b-2f7a570b9413" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cricinfo_digest/pipelines.py" afterPath="$PROJECT_DIR$/cricinfo_digest/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cricinfo_digest/settings.py" afterPath="$PROJECT_DIR$/cricinfo_digest/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cricinfo_digest.iws" />
@@ -65,8 +63,8 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cricinfo_digest/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="680">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.275" vertical-offset="0" max-vertical-offset="680">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -379,7 +377,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439745421216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Included reddit api to the pipeline &#10;">
+      <created>1439793393656</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1439793393656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -447,7 +451,8 @@
     </option>
     <MESSAGE value="Reading scorecard" />
     <MESSAGE value="Reading scorecard successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reading scorecard successfully" />
+    <MESSAGE value="Included reddit api to the pipeline &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Included reddit api to the pipeline &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cricinfo_digest/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="680">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.275" vertical-offset="0" max-vertical-offset="680">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
