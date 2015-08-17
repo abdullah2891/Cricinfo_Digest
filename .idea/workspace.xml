@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43ec9782-8bcb-4663-9a0b-2f7a570b9413" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cricinfo_digest/spiders/digest.py" afterPath="$PROJECT_DIR$/cricinfo_digest/spiders/digest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cricinfo_digest/items.py" afterPath="$PROJECT_DIR$/cricinfo_digest/items.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cricinfo_digest/pipelines.py" afterPath="$PROJECT_DIR$/cricinfo_digest/pipelines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -55,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/cricinfo_digest/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="680">
-              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -410,7 +408,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439798384236</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Scrapping improved and pipeline worked">
+      <created>1439824027472</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1439824027472</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -458,7 +462,8 @@
     <MESSAGE value="Reading scorecard successfully" />
     <MESSAGE value="Included reddit api to the pipeline &#10;" />
     <MESSAGE value="working on better scrapping technique" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on better scrapping technique" />
+    <MESSAGE value="Scrapping improved and pipeline worked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scrapping improved and pipeline worked" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -806,7 +811,7 @@
     <entry file="file://$PROJECT_DIR$/cricinfo_digest/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="680">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -23,7 +23,7 @@ class redditPipeline(object):
 
         s=""
         for i in range(len(self.teams)):
-            s+=self.teams[i]+"   "+self.score_list[i]+'\n'
+            s+="* "+self.teams[i]+"   "+self.score_list[i]+'\n'
 
 
 
