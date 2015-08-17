@@ -10,7 +10,8 @@ import praw
 class redditPipeline(object):
 
     def process_item(self,items,spider):
-        self.team_list=items['teams']
+        self.team_list=items['series']
+        self.teams=items['teams']
         self.score_list=items['scores']
     def open_spider(self,spider):
         pass
@@ -19,10 +20,15 @@ class redditPipeline(object):
         r=praw.Reddit(user_agent='test_login')
 
 
-        print "TEAM NAMES:      ",self.team_list
+
+        s=""
+        for i in range(len(self.teams)):
+            s+=self.teams[i]+"   "+self.score_list[i]+'\n'
+
+
 
         user=raw_input("Username: ")
         password=raw_input("Password :  ")
-        #r.login(user,password)
-        #r.send_message('lt_snuffles', 'test', 'You are awesome!')
+        r.login(user,password)
+        r.send_message('lt_snuffles', 'Current Scorecards',s)
 

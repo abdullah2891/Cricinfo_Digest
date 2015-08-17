@@ -11,5 +11,7 @@ import scrapy
 class CricinfoDigestItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+
+    series=scrapy.Field()
     teams=scrapy.Field()
     scores=scrapy.Field()
