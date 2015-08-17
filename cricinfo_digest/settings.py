@@ -14,6 +14,11 @@ BOT_NAME = 'cricinfo_digest'
 SPIDER_MODULES = ['cricinfo_digest.spiders']
 NEWSPIDER_MODULE = 'cricinfo_digest.spiders'
 
+ITEM_PIPELINES = {
+    'cricinfo_digest.pipelines.redditPipeline',
+
+}
+
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
