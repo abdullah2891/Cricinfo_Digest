@@ -22,13 +22,15 @@ class redditPipeline(object):
 
 
         s=""
-        for i in range(len(self.teams)):
-            s+="* "+self.teams[i]+"   "+self.score_list[i]+'\n'
+        s+=self.team_list[0]
+        s+="* "+self.teams[0]+"   "+self.score_list[0]+'\n'
 
 
 
         user=raw_input("Username: ")
         password=raw_input("Password :  ")
+
+
         r.login(user,password)
         r.send_message('lt_snuffles', 'Current Scorecards',s)
 
